@@ -1,0 +1,5 @@
+{
+  "name": "Game Download Page",
+  "description": "A visually appealing, responsive landing page for downloading a game, built with React and Tailwind CSS, replicating a modern app store design.",
+  "requestFramePermissions": []
+}
