@@ -44,9 +44,9 @@ const DownloadButton: React.FC<{
 
 const App: React.FC = () => {
   const screenshots = [
-    'https://picsum.photos/seed/ss1/640/360',
-    'https://picsum.photos/seed/ss2/640/360',
-    'https://picsum.photos/seed/ss3/640/360',
+    'https://i.postimg.cc/X7L7qRT6/terraria-920670.webp',
+    'https://i.postimg.cc/Jzg8BMxB/terraria-772971.webp',
+    'https://i.postimg.cc/RFBjcFH1/terraria-90432.webp',
   ];
   const [currentIndex, setCurrentIndex] = React.useState(0);
   // Fix: Replaced NodeJS.Timeout with ReturnType<typeof setTimeout> for browser compatibility.
@@ -111,7 +111,7 @@ const App: React.FC = () => {
     <div className="max-w-[1100px] mx-auto p-5 sm:p-7 text-white">
       <header className="flex flex-col md:flex-row gap-4 md:gap-[18px] items-center">
         <div className="w-[86px] h-[86px] rounded-xl bg-gradient-to-b from-[#183a2b] to-[#173727] flex items-center justify-center flex-shrink-0 shadow-lg shadow-black/60">
-          <img src="https://picsum.photos/id/1/128/128" alt="game icon" className="w-[68px] h-[68px] object-cover rounded-[10px]" />
+          <img src="https://i.postimg.cc/pT4bmHHV/images.jpg" alt="game icon" className="w-[68px] h-[68px] object-cover rounded-[10px]" />
         </div>
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-xl lg:text-2xl font-bold mb-[6px]">Download Terraria (MOD, Unlimited Items) 1.4.4.9.8 free on Android & iOS</h1>
